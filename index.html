@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        class User {
+            constructor(username, email, password) {
+                this.username = username;
+                this.email = email;
+                this.password = password
+            }
+            userinfo(){
+               console.log(`UserName: ${this.username}`);
+               console.log(`UserEmail: ${this.email}`)
+               console.log(`UserPassword: ${this.password}`)
+            }
+
+        }
+        // const bharat = new User("bharat", "bharat22@gmail.com", 123)
+        // bharat.userinfo()
+
+        // const hares = new User("hares", "hares123@gmail.com", 75836)
+        // hares.userinfo()
+
+        const hites = new User("hites", "hites444@gmail.com", 19883)
+        hites.userinfo()
+        
+    </script>
+</body>
+
+</html>

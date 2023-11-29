@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        class Bank {
+            constructor(name, location, downpayment) {
+                this.bankName = name
+                this.location = location
+                this.downpayment = downpayment
+
+            }
+
+            fill(){
+                console.log(`bankName: ${this.bankName}`);
+                console.log(`location: ${this.location}`);
+                console.log(`downpayment: ${this.downpayment}`);
+            }
+        }
+
+        // const bank1 = new Bank("bob","deoder",0)
+        // bank1.fill()
+
+        // const bank2 = new Bank("banasbank","tharad",500)
+        // bank2.fill()
+
+        const bank3 = new Bank("sbi","palnpur",2500)
+        bank3.fill()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Animal {
+            constructor(name, sound,color) {
+                this.name = name
+                this.sound = sound
+                this.color=color
+            }
+            fill(){
+                console.log(`AnimalName: ${this.name}`);
+                console.log(`AnimalSound: ${this.sound}`);
+                console.log(`AnimalColor: ${this.color}`)
+            }
+        }
+
+        // const animal1 = new Animal("dog","woof woof", "brown,black")
+        // animal1.fill()
+
+        // const animal2 = new Animal("cat","meow", "black,brown")
+        // animal2.fill()
+
+        const animal3 = new Animal("horse","a neigh", "bay,brown,black and chestnut")
+        animal3.fill()
+
+
+    </script>
+</body>
+
+</html>

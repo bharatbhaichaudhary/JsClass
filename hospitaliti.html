@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        class Hotel {
+            constructor(name, location, type) {
+                this.name = name
+                this.location = location
+                this.type = type
+            }
+
+            print (){
+                console.log(`hotelname: ${this.name}`);
+                console.log(`hotel location: ${this.location}`)
+                console.log(`type: ${this.type}`)
+            }
+        }
+
+        // const hotel = new Hotel("tulsy", "tharad","nonveg")
+        // hotel.print ()
+
+        // const hotel1 = new Hotel("patag", "ahmadabad", "mix")
+        // hotel1.print ()
+
+        const hotel2 = new Hotel("karnavati","bhabhar", "veg")
+        hotel2.print ()
+    </script>
+</body>
+
+</html>

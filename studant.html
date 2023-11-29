@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Studant {
+            fill(name, scoole, std) {
+                this.name = name
+                this.scoole = scoole
+                this.std = std
+                console.log(`studant name:${this.name}`);
+                console.log(`scoole name:${this.scoole}`);
+                console.log(`std:${this.std}`)
+            }
+
+        }
+        class Studant2 extends Studant{
+
+        }
+        // const studant1 = new Studant()
+        // studant1.fill("bharat", "gaytri", 12)
+
+        // const studant2 = new Studant2()
+        // studant2.fill("haresh", "gaytri", 11)
+
+        const studant3 = new Studant2 ()
+        studant3.fill("hitesh", "gaytri", 10)
+        
+
+    </script>
+</body>
+
+</html>
